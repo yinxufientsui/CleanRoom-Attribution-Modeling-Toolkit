@@ -3,25 +3,7 @@
 ## Directory Structure
 
 cleanroom-attribution/
-├── README.md
-├── simulated_cleanroom/
-│   ├── adh_simulator.py               # Simulate cleanroom data join environment
-│   ├── synthetic_data_generator.py    # Create sample event-level & aggregated data
-│   └── schema/                        # JSON schema for data format
-├── models/
-│   ├── rule_based.py                 # Last-touch, first-touch, linear attribution
-│   ├── probabilistic.py              # Markov chain model, Shapley values
-│   ├── ml_based.py                   # Logistic regression, decision tree, random forest
-│   ├── hybrid.py                     # Combine rule + ML + probabilistic
-│   └── utils.py                      # Shared helpers (e.g., evaluation metrics)
-├── dashboards/
-│   └── tableau_templates/            # Exportable Tableau dashboard templates
-├── notebooks/
-│   └── attribution_demo.ipynb        # End-to-end example
-├── tests/
-│   └── test_model_logic.py
-├── requirements.txt
-└── LICENSE
+
 
 
 ## README.md (Initial Draft)
